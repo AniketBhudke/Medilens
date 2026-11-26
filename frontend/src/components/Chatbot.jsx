@@ -75,9 +75,15 @@ export default function Chatbot() {
           <p className="chat-disclaimer">For personal dose or safety decisions, ask your doctor or pharmacist. Emergency symptoms need urgent care.</p>
         </section>
       )}
-      <button type="button" className="chat-fab" onClick={() => setOpen((value) => !value)}
+      <button type="button" className={`chat-fab${open ? " is-open" : ""}`} onClick={() => setOpen((value) => !value)}
               aria-expanded={open} aria-label={open ? "Close medicine chat" : "Open medicine chat"}>
-        {open ? "Close chat" : "Ask MedLens"}
+        <svg className="chat-fab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {open
+            ? <path d="m6 6 12 12M18 6 6 18" />
+            : <path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5 8 8 0 0 1-3.2-.7L4 20l1.5-4A7.5 7.5 0 1 1 20 11.5Z" />}
+        </svg>
+        <span className="chat-fab-label">{open ? "Close chat" : "Ask MedLens"}</span>
       </button>
     </div>
   );
