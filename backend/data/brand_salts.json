@@ -1,0 +1,14 @@
+{
+  "dolo": "paracetamol", "crocin": "paracetamol", "calpol": "paracetamol", "pcm": "paracetamol",
+  "combiflam": "ibuprofen + paracetamol", "brufen": "ibuprofen",
+  "voveran": "diclofenac", "volini": "diclofenac",
+  "augmentin": "amoxicillin + clavulanic acid", "mox": "amoxicillin", "azithral": "azithromycin", "azee": "azithromycin",
+  "pan": "pantoprazole", "pantop": "pantoprazole", "pan-d": "pantoprazole + domperidone", "omez": "omeprazole", "rablet": "rabeprazole",
+  "glycomet": "metformin", "gluconorm": "metformin + glimepiride", "amaryl": "glimepiride",
+  "ecosprin": "aspirin", "disprin": "aspirin", "clopilet": "clopidogrel", "plavix": "clopidogrel",
+  "telma": "telmisartan", "amlokind": "amlodipine", "norvasc": "amlodipine", "losar": "losartan", "ecotrin": "aspirin",
+  "atorva": "atorvastatin", "lipitor": "atorvastatin", "rosuvas": "rosuvastatin", "storvas": "atorvastatin",
+  "cetzine": "cetirizine", "okacet": "cetirizine", "allegra": "fexofenadine", "montair": "montelukast",
+  "thyronorm": "levothyroxine", "eltroxin": "levothyroxine",
+  "shelcal": "calcium + vitamin d3", "becosules": "vitamin b complex", "neurobion": "vitamin b complex"
+}
